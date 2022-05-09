@@ -5,7 +5,7 @@ Laravelコース フレームワークテスト2
 clone時は以下のコマンドを利用し、ローカルリポジトリの名称が `coaching_test_2` になるようにしてください。  
 
 ```git
-git clone https://github.com/ItoMomo/PHP-coaching_test_2.git coaching_test_2
+git clone https://github.com/SLStudioGithub/CoachingTest-Laravel-FWTest02.git coaching_test_2
 ```
 
 ## 動作準備
