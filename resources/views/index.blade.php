@@ -17,7 +17,13 @@
         </tr>
     </thead>
     <tbody>
-        {{-- Q1-3 --}}
+        @foreach ($animals as $animal)
+            <tr>
+                <td>{{ $animal->id }}</td>
+                <td>{{ $animal->name }}</td>
+                <td><a href="{{ url('detail', ['id' => $animal->id ]) }}">詳細</a></td>
+            </tr>
+        @endforeach
     </tbody>
 </table>
 @endsection
